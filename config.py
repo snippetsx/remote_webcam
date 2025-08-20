@@ -8,6 +8,7 @@ class Config:
     FRAME_WIDTH = 1280  # Width of the video frame
     FRAME_HEIGHT = 720  # Height of the video frame
     FRAME_RATE = 30  # Frame rate for the video stream
+    ROTATION_ANGLE = 270  # Rotation angle in degrees (0, 90, 180, 270)
     # Server settings
     SERVER_HOST = '0.0.0.0'  # Host to run the server on
     SERVER_PORT = 5000  # Port to run the server on

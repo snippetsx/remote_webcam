@@ -11,7 +11,8 @@ webcam = Webcam(
     camera_index=app.config['WEBCAM_INDEX'],
     width=app.config['FRAME_WIDTH'],
     height=app.config['FRAME_HEIGHT'],
-    fps=app.config['FRAME_RATE']
+    fps=app.config['FRAME_RATE'],
+    rotation=app.config['ROTATION_ANGLE']
 )
 
 @app.route('/')
